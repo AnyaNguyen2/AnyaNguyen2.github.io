@@ -14,7 +14,8 @@ nav {
     margin: 0 auto;
     margin-bottom: 20px;
     display: flex;
-    padding: 10px;
+    padding: 20px;
+    border-radius: 20px;
     }
     h1 {
     display: flex;
@@ -40,12 +41,13 @@ nav {
     main {
     background: white;
     display: flex;
-    
+    border-radius: 20px;
     
     }
     .sidebar {
     margin-right: 25px;
     padding: 10px;
+    
     }
     .sidebar-img {
     width: 200px;
@@ -62,6 +64,8 @@ nav {
         border: 4px silver ridge;
         padding: 8px;
         color:#7ab05a;
+        border-radius: 20px;
+
         }
         h2, h3 {
         margin: 0px;
