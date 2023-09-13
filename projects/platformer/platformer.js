@@ -42,11 +42,11 @@ $(function () {
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
-createPlatform(150, 700, 15, 5);
-createPlatform(300, 600, 15, 5);
-createPlatform(450, 500, 15, 5);
-createPlatform(600, 430, 15, 5);
-createPlatform(820, 375, 15, 7);
+createPlatform(150, 700, 30, 5);
+createPlatform(300, 600, 30, 5);
+createPlatform(450, 500, 30, 5);
+createPlatform(600, 430, 30, 5);
+createPlatform(820, 375, 30, 7);
 
 
     
@@ -58,6 +58,7 @@ createPlatform(820, 375, 15, 7);
 createCollectable("database", 200, 500, 1, 0);
 createCollectable("database", 200, 500, 0, 0);
 createCollectable("database", 700, 300, 0, 0);
+
 
     // TODO 3
     // Create cannons
