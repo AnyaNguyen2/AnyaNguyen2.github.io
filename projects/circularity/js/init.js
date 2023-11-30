@@ -26,7 +26,7 @@ var circles = [];
         // TODO 2 : Create a function that draws a circle 
 function drawCircle () {
     circle = draw.randomCircleInArea(canvas, true, true, "#999", 2);
-physikz.addRandomVelocity(circle, canvas);
+physikz.addRandomVelocity(circle, canvas, 15, 15);
 view.addChild(circle);
 circles.push(circle);
 }        
@@ -82,11 +82,11 @@ These are hard coded so they were removed/commented out.
           
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
             if ( circle.x >= canvas.width ) {
-                circle.x = 0;
+                circle.x = 10;
             }
 
             if (circle.y > canvas.width) {
-                circle.y = 5; 
+                circle.y = 50; 
             }
 
             if (circle.y >= canvas.height) {
